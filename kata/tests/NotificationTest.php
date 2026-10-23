@@ -7,7 +7,7 @@ use PHPUnit\Framework\TestCase;
 
 class NotificationTest extends TestCase
 {
-    public function testGivenAMultipleOfThreeAndFiveShouldSendNotification(): void
+    public function test(): void
     {
         $message = 'FizzBuzz';
         $notification = new Notification();
